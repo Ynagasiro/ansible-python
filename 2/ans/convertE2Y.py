@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 # main 
 def main():
   # Excel ファイルを指定する
-  wbook = openpyxl.load_workbook("AnsiblePythonLab.xlsx")
+  wbook = openpyxl.load_workbook("AnsiblePythonLab.xls")
   #logger.debug()
   
   # Excel ファイルのシートリストを取得する
